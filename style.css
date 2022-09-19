@@ -140,6 +140,11 @@ p {
     padding-left: 139px;
     padding-right: 122px;
     position: relative;
+
+}
+
+.gift__container img {
+    width: 259px;
 }
 
 .gift__container:before {
@@ -232,8 +237,8 @@ p {
 }
 
 .qr-code__container strong {
-    font-family: 'Gotham Pro';
-    font-weight: 900;
+    font-family: 'Gotham Pro', Open Sans;
+    font-weight: 700;
     font-size: 22px;
     line-height: 1.45;
     text-transform: uppercase;
@@ -259,6 +264,7 @@ p.date {
     text-align: center;
     margin-top: 155px;
     margin-bottom: 40px;
+    padding: 0 60px;
 }
 
 .footer-list {
@@ -295,7 +301,9 @@ li.footer-list__item {
     font-style: normal;
     margin-bottom: 0;
 }
-
+.list-item__title img {
+    width: 25px;
+}
 .list-item__text {
     margin-top: 0;
 }
@@ -373,7 +381,7 @@ li.footer-list__item {
     }
 
     .gift__container img {
-        width: 180px;
+        width: 168px;
         height: 167px;
         object-fit: contain;
         margin: 0 auto;
@@ -435,6 +443,8 @@ li.footer-list__item {
 
     .footer {
         margin-top: 56px;
+        margin-bottom: 0;
+        padding: 0;
     }
 
     .footer-list {

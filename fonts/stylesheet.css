@@ -100,7 +100,7 @@
 }
 
 @font-face {
-	font-family: 'Gotham Pro';
+		font-family: 'Gotham Pro';
 	src: url('GothamPro-Black.eot');
 	src: local('Gotham Pro Black'), local('GothamPro-Black'),
 		url('GothamPro-Black.eot?#iefix') format('embedded-opentype'),
